@@ -1,7 +1,8 @@
-.vs
-.sln
-.vcxproj
-.vcxproj.filters
+# Visual Studio 生成的文件
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
 *.vcxproj.user
 Debug/
 Release/
