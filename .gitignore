@@ -1,6 +1,6 @@
 # Visual Studio 生成的文件
 .vs/
-*.sln
+*.sln*
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
