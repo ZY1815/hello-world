@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+#include<string>
+#include<cctype>
+int main()
+{
+  string s;
+  getline(cin,s);
+  int ha[128]={0};
+  for(char c:s){
+    char ss=tolower(c);
+    if(ha[ss]==1)
+    {
+      cout<<"NO"<<endl;
+      return 0;
+    }
+    ha[ss]=1;
+  }
+  cout<<"YES"<<endl;
+  return 0;
+}
